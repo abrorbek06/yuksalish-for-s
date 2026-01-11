@@ -152,13 +152,6 @@ const App: React.FC = () => {
           </motion.button>
         </motion.div>
       </section>
-
-      <footer className="py-24 bg-black border-t border-white/5 text-center">
-        <div className="container mx-auto px-6 opacity-30">
-          <p className="text-[8px] tracking-[1em] uppercase mb-4 italic">Editorial Longread Experience</p>
-          <p className="text-[7px] uppercase tracking-widest">Powered by Gemini AI Intelligence &copy; 2025</p>
-        </div>
-      </footer>
     </main>
   );
 };
