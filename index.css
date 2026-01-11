@@ -1,0 +1,10 @@
+/* Minimal global CSS so `/index.css` exists and avoids 404s on Vercel */
+html, body, #root {
+  height: 100%;
+}
+
+/* Keep default background & font fallback in place */
+body {
+  background-color: #050505;
+  color: #d1d1d1;
+}
